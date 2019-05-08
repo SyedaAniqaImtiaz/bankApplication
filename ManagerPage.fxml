@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="coe528.project.ManagerPage">
+  <children>
+    <Button fx:id="addCustomer" layoutX="79.0" layoutY="301.0" mnemonicParsing="false" onAction="#onClick_btn_addCustomer" prefWidth="121.0" text="Add Customer" />
+    <Button fx:id="removeCustomer" layoutX="241.0" layoutY="302.0" mnemonicParsing="false" onAction="#onClick_btn_removeCustomer" prefWidth="121.0" text="Remove Customer" />
+    <Button fx:id="logout" layoutX="400.0" layoutY="302.0" mnemonicParsing="false" onAction="#onClick_btn_logout" prefWidth="121.0" text="Logout" />
+    <TextField fx:id="name" layoutX="200.0" layoutY="136.0" prefWidth="200.0" promptText="Customer Username" />
+    <TextField fx:id="pass" layoutX="200.0" layoutY="200.0" prefWidth="200.0" promptText="Customer Password" />
+    <Label fx:id="label" layoutX="200.0" layoutY="106.0" text="" />
+  </children>
+</AnchorPane>
